@@ -1,0 +1,116 @@
+/* Global styles */
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+
+a {
+	color: #4d4dff;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+button, input[type="submit"] {
+	background-color: #4d4dff;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+}
+
+button:hover, input[type="submit"]:hover {
+	background-color: #0039e6;
+}
+
+/* Header styles */
+
+header {
+	background-color: #fff;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+	padding: 20px 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+/* Main content styles */
+
+#hero {
+	background-image: url('hero-background.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#hero h2 {
+	font-size: 36px;
+	margin: 0;
+}
+
+#hero p {
+	font-size: 20px;
+	margin: 20px 0;
+	max-width: 500px;
+	line-height: 1.5;
+}
+
+/* Contact form styles */
+
+form label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+form textarea {
+	height: 150px;
+	resize: none;
+}
+
+/* Footer styles */
+
+footer {
+	background-color: #f2f2f2;
+	padding: 20px 0;
+	text-align: center;
+}
